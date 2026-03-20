@@ -1,4 +1,3 @@
-# modelos/componentes/fuente_poder.py
 from .componente import Componente
 
 class FuentePoder(Componente):
@@ -13,4 +12,5 @@ class FuentePoder(Componente):
         self.problema = problema
     
     def obtener_especificaciones(self):
-        f"Fuente {self.potencia_watts}, {self.condicion}GB"
+        f"Fuente {self.potencia_watts}, {self.condicion}"
+   

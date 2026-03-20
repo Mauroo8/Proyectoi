@@ -1,7 +1,7 @@
-from activos import Equipo, Pc, Monitor, Impresora, EquipoRed
+from componentes import MemoriaRAM, DiscoDuro, FuentePoder, Componente
 
-print(Equipo)
-print(Pc)
-print(Monitor)
-print(Impresora)
-print(EquipoRed)
+print(MemoriaRAM)
+print(DiscoDuro)
+print(FuentePoder)
+print(Componente)
+
