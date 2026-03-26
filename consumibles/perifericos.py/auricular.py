@@ -8,4 +8,4 @@ class Auricular(PerifericoDesechable):
         self.tipo = tipo
 
     def __str__(self):
-        return f"⌨️ Auricular {self.tipo} - {self.marca} {self.modelo} - Stock: {self.stock}"
+        return f"Auricular {self.tipo} - {self.marca} {self.modelo} - Stock: {self.stock}"
