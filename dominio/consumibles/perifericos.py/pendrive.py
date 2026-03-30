@@ -8,4 +8,4 @@ class Pendrive(PerifericoDesechable):
         self.tipo = tipo
 
     def __str__(self):
-        return f"⌨️ Teclado {self.tipo} - {self.marca} {self.modelo} - Stock: {self.stock}"
+        return f" Pendrive {self.tipo} - {self.marca} {self.modelo} - Stock: {self.stock}"
